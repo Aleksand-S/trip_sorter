@@ -29,7 +29,7 @@ def request_check(cards):
     the function checks for:
     1. There must be one unique point 'from', one unique point 'to', all other points must have a pair
     2. A point cannot be repeated
-    3. Fields "type", "from", "to" and "number" are required.
+    3. Fields "type", "from", "to", "number" and 'gate/platform' are required.
     :param cards: list of dicts with data about boarding card
     :return: 'Correct' or error message
     """
